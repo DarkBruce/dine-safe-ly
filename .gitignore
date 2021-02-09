@@ -6,6 +6,7 @@ staticfiles/
 htmlcov/
 *.env
 .venv
+venv
 env/
 *venv/
 venv.bak/
