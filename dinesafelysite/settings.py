@@ -192,7 +192,7 @@ LOGIN_REDIRECT_URL = "index"
 LOGOUT_REDIRECT_URL = "index"
 
 EMAIL_HOST = "smtp.gmail.com"
-EMAIL_HOST_USER = "nyc.accessible.rest@gmail.com"
+EMAIL_HOST_USER = "dine.safely1527@gmail.com"
 EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
@@ -236,6 +236,6 @@ SOCIALACCOUNT_PROVIDERS = {
         "VERSION": "v2.4",
     },
 }
-# rebuild
+
 GOOGLE_MAP_KEY = os.environ.get("GOOGLE_MAP_KEY")
 GOOGLE_MAP_ID = os.environ.get("GOOGLE_MAP_ID")
