@@ -236,6 +236,6 @@ SOCIALACCOUNT_PROVIDERS = {
         "VERSION": "v2.4",
     },
 }
-
+# rebuild
 GOOGLE_MAP_KEY = os.environ.get("GOOGLE_MAP_KEY")
 GOOGLE_MAP_ID = os.environ.get("GOOGLE_MAP_ID")
